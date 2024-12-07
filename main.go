@@ -6,7 +6,7 @@ import (
 
 func main() {
 	arr := []int{1, 3, 5, 7, 9, 11, 13, 15}
-	target := 7
+	target := 171
 
 	index := binarySearch(arr, target)
 	if index != -1 {
@@ -14,4 +14,5 @@ func main() {
 	} else {
 		fmt.Println("Элемент не найден")
 	}
+	fmt.Println(isPrime(7))
 }
