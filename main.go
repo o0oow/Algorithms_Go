@@ -1,18 +1,13 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	arr := []int{1, 3, 5, 7, 9, 11, 13, 15}
-	target := 171
+	arr := []int{38, 27, 43, 3, 9, 82, 10, 1, 13}
+	fmt.Println("Исходный массив:", arr)
+	mrgsrt := mergeSort(arr)
+	qusort := quickSort(arr)
+	fmt.Println("Отсортированный массив MS:", mrgsrt)
+	fmt.Println("Отсортированный массив QS:", qusort)
 
-	index := binarySearch(arr, target)
-	if index != -1 {
-		fmt.Printf("Элемент %d найден на индексе %d\n", target, index)
-	} else {
-		fmt.Println("Элемент не найден")
-	}
-	fmt.Println(isPrime(7))
 }
