@@ -1,0 +1,3 @@
+Binary search
+Merge sort
+Quick sort
