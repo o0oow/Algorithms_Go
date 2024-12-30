@@ -9,5 +9,5 @@ func main() {
 	qusort := quickSort(arr)
 	fmt.Println("Отсортированный массив MS:", mrgsrt)
 	fmt.Println("Отсортированный массив QS:", qusort)
-
+	
 }
